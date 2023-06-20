@@ -1,0 +1,7 @@
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* nao deixa quebrar o texto */
+    overflow: scroll; /*cria barra de rolagem no container*/
+    gap: 1em; /* nao aplica espaçamento nas estremidades, apenas entre os items*/
+}
